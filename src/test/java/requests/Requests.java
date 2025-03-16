@@ -10,11 +10,11 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
-public class requests {
+public class Requests {
 
     private CloseableHttpClient httpClient;
 
-    public requests() {
+    public Requests() {
         httpClient = HttpClients.createDefault();
     }
 

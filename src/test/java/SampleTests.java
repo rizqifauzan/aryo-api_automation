@@ -1,10 +1,10 @@
-package tests;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import requests.ApiRequest;
 
-public class tests {
+import java.io.IOException;
+
+public class SampleTests {
 
     @Test(description = "Positive Test: Valid request returns correct response")
     public void testPositiveCase() throws IOException {

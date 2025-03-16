@@ -1,10 +1,10 @@
-package utilities;
 
 import com.google.gson.Gson;
+
 import java.io.FileReader;
 import java.io.IOException;
 
-public class utilities {
+public class Utilities {
 
     public static <T> T readTestData(String filePath, Class<T> clazz) throws IOException {
         Gson gson = new Gson();

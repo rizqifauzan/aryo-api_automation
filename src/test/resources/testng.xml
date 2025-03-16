@@ -2,7 +2,9 @@
 <suite name="API Test Suite">
     <test name="API Tests">
         <classes>
-            <class name="tests.ApiTests"/>
+            <class name="runner.APITest"/>
+            <class name="TestRunner"/>
+            <class name="SampleTests"/>
         </classes>
     </test>
 </suite>
